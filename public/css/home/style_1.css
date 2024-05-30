@@ -1,0 +1,101 @@
+.tpdemolink-wrapper {
+    width: 288px;
+    align-items: flex-start;
+    align-content: center;
+    position: fixed;
+    top: 35%;
+    right: -288px;
+    height: auto;
+    clear: both;
+    min-width: 288px;
+    clear: both;
+    z-index: 99999999999;
+    display: flex;
+}
+
+.tpdemolink-inner {
+    background: #ffffff;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 33px 0px #00000052;
+}
+
+.tpdemolink-inner .tpdemo-all {
+    position: absolute;
+}
+.tpdemo-all {
+    position: absolute;
+    left: 0;
+    transform: translate(-100%, 0px);
+    border: none;
+    background: #0e59f2;
+    padding: 5px 15px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tpdemolink-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tpdemolink-inner h3 {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.tpdemolink-items ul li a {
+    background: #0e59f2;
+    margin: 2px 1px;
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.tpdemolink-items ul li a:hover {
+    background: #0e1e38;
+    color: #ffffff;
+}
+.tpdemolink-items ul li {
+    display: inline-flex;
+}
+.tpdemo-extra-btns ul {
+    list-style: unset;
+    margin: 0;
+    padding: 0;
+}
+
+.tpdemo-extra-btns ul li {
+    margin-bottom: 10px;
+}
+
+.tpdemo-extra-btns ul li a {
+    display: block;
+    min-width: 133px;
+}
+
+.tpdemo-extra-btns ul li a:hover {
+    background: #0f1a25;
+    color: #fff;
+}
+.tpdemo-extra-btns ul li:nth-child(odd) a {
+    background: #0f48bd;
+}
+.tpdemo-extra-btns ul li:nth-child(even) a {
+    background: #0e59f2;
+}
+.tpdemolink-items ul li a span {
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+@media (max-width: 992px) {
+.tpdemolink-wrapper {
+    display: none;
+}
+}
